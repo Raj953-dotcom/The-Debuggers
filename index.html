@@ -1,0 +1,66 @@
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url("1.jpg");
+    }
+    .login-box {
+      width: 300px;
+      margin: 100px auto;
+      padding: 30px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    input {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .btn {
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      width: 100%;
+      cursor: pointer;
+    }
+    .error {
+      color: red;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="login-box">
+  <h2>Login</h2>
+  <input type="text" id="username" placeholder="Enter Username"><br>
+  <input type="password" id="password" placeholder="Enter Password"><br>
+  <p id="error-message" class="error"></p>
+  <button class="btn" onclick="login()">Login</button>
+</div>
+
+<script>
+  function login() {
+    var user = document.getElementById("username").value;
+    var pass = document.getElementById("password").value;
+
+    // Static credentials (you can replace this with backend validation)
+    if(user === "admin" && pass === "1234") {
+      window.location.href = "prity.html";  // Replace with your home page
+    } else {
+      document.getElementById("error-message").innerText = "Invalid username or password.";
+    }
+  }
+</script>
+
+</body>
+</html>
