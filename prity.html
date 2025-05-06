@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trying our best</title>
+
+    
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Navbar</title>
+  <link href="weather.css" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">KrishiMitra</a>
+
+     <!-- < Toggle Button for Mobile --> 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>  
+
+    <!-- Navbar Links -->
+    /
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <!--  
+         <li class="nav-item"> -->
+            <a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+          
+            Our Services
+          </a><br>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Service 1</a></li>
+            <li><a class="dropdown-item" href="#">Service 2</a></li>
+            <li><a class="dropdown-item" href="#">Service 3</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="#">Our Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Get Started Button -->
+     <div class="d-none d-lg-block">
+        <a href="" class="btn btn-primary">Read More</a>
+    </div> 
+  </div>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hero Slider</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .carousel-item {
+      height: 100vh;
+      min-height: 400px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    .carousel-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 150%;
+      width: 150%;
+      /* background-color: rgba(0, 0, 0, 0.5); */
+      background-image:url("https://gjia.georgetown.edu/wp-content/uploads/sites/20/2023/01/paddy-fields-2000x1125.jpeg") ;
+      background-size: cover;
+    }
+
+    .carousel-caption {
+      bottom: 50%;
+      transform: translateY(50%);
+    }
+
+    .carousel-caption h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .carousel-caption p {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image: url('img1.jpg');">
+      <div class="carousel-overlay"></div>
+      <div class="carousel-caption text-white">
+        <h1>Welcome to Krishi Mitra  </h1>
+        <style>
+            .carousel-caption{
+              display :flax;
+              flex-direction: column;
+              justify-content: center;
+              align-iteam:center;
+              height: 100%;
+              text-align: center;
+            }
+            .carousel-caption h1{
+              font-size: 2.5rem;
+              margin-bottom: trem;
+            }
+          </style>
+
+        <p>Empowering farmers with timely updates<br>on weather, crops, and market prices.</p>
+
+        <!-- <style>
+            .caption-Empowring{
+                top:50% !important;
+            }
+          </style>
+     -->
+
+       
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('img2.jpg');">
+      <div class="carousel-overlay"></div>
+      <div class="carousel-caption text-white">
+        <h1>Latest Mandi Prices</h1>
+        <p>Stay ahead with the latest market trends<br>from your nearest mandi.</p>
+        
+      </div>
+    </div>
+    
+     
+    </html><!DOCTYPEhtml>
+    <html>
+            </style>
+    <div class="carousel-item" style="background-image: url('img3.jpg');">
+      <div class="carousel-overlay"></div>
+      <div class="carousel-caption text-white">
+        <h1>Government Schemes</h1>
+        <p>Get informed about subsidies<br>and farmer welfare programs.</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html><section class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Content -->
+        <div class="col-md-6">
+          <hr>
+          <h6 class="text-uppercase text-success mb-3">About Us</h6>
+  
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs mb-3" id="aboutTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="field-tab" data-bs-toggle="tab" data-bs-target="#our field" type="button" role="tab">Our Field</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="mission-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab">Our Mission</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="vision-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab">Our Vision</button>
+            </li>
+          </ul>
+  
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="company" role="tabpanel">
+              <h4>Empowering Indian Farmers</h4>
+              <p>Krishi Mitra is dedicated to providing farmers with timely access to vital information, including weather forecasts, crop advisories, and mandi prices.</p>
+              <a href="#" class="btn btn-success">Learn More</a>
+            </div>
+            <div class="tab-pane fade" id="mission" role="tabpanel">
+              <h4>Our Mission</h4>
+              <p>To simplify the flow of agricultural information so that every farmer can make informed decisions to improve productivity and income.</p>
+              <a href="#" class="btn btn-success">Learn More</a>
+            </div>
+            <div class="tab-pane fade" id="vision" role="tabpanel">
+              <h4>Our Vision</h4>
+              <p>We envision a digitally connected farming community with equal access to resources, knowledge, and government support schemes.</p>
+              <a href="#" class="btn btn-success">Learn More</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Right Image -->
+        <div class="col-md-6">
+          <img src="https://plus.unsplash.com/premium_photo-1661962692059-55d5a4319814?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"width="400px" class="img-fluid rounded" alt="About Us Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Bootstrap JS (required for tabs to work) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body><section class="py-5 bg-white text-center">
+    <div class="container">
+      <hr>
+      <h2 class="mb-3 fw-bold">Our Services</h2>
+      <p class="mb-5 text-muted">
+        We offer a wide range of support and tools for farmers across India. From crop advisory to government schemes, our services empower farmers with timely and accurate information for better productivity and growth.
+      </p>
+      
+      <div class="row text-start">
+        <!-- Service 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded shadow-sm h-100">
+            <div class="mb-3">
+              <i class="bi bi-cloud-sun fs-2 text-success"></i>
+            </div>
+            <h5>Service 1</h5>
+            <p>Get real-time weather updates tailored to your farming region and upcoming conditions.</p>
+            <a href="weather.html">
+                <button>Read More</button></a> 
+              
+              
+          </div>
+        </div>
+  
+        <!-- Service 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded shadow-sm h-100">
+            <div class="mb-3">
+              <i class="bi bi-bar-chart-line fs-2 text-success"></i>
+            </div>
+            <h5>Service 2</h5>
+            <p>Access live mandi prices to help you sell your crops at the best possible rates.</p>
+            <a href="pritys2.html">
+                <button>Read More</button></a> 
+          </div>
+        </div>
+  
+        <!-- Service 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded shadow-sm h-100">
+            <div class="mb-3">
+              <i class="bi bi-clipboard-data fs-2 text-success"></i>
+            </div>
+            <h5>Service 3</h5>
+            <p>Get expert crop advisory based on soil, climate, and crop stage to maximize yields.</p>
+            <a href="pritys3.html">
+                <button>Read More</button></a>
+          </div>
+        </div>
+  
+        <!-- Service 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded shadow-sm h-100">
+            <div class="mb-3">
+              <i class="bi bi-file-earmark-text fs-2 text-success"></i>
+            </div>
+            <h5>Service 4</h5>
+            <p>Discover government schemes and apply easily through our step-by-step guides.</p>
+            <a href="pritys4.html">
+                <button>Read More</button></a>
+          </div>
+        </div>
+  
+        <!-- Service 5 -->
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded shadow-sm h-100">
+            <div class="mb-3">
+              <i class="bi bi-telephone-inbound fs-2 text-success"></i>
+            </div>
+            <h5>Service 5</h5>
+            <p>Connect with local Krishi advisors and get personalized support for your queries.</p>
+            <a href="pritys5.html">
+                <button>Read More</button></a>
+          </div>
+        </div>
+  
+        <!-- Service 6 -->
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded shadow-sm h-100">
+            <div class="mb-3">
+              <i class="bi bi-geo-alt fs-2 text-success"></i>
+            </div>
+            <h5>Service 6</h5>
+            <p>Use our location-based services to find nearby mandi, fertilizer, and agri clinics.</p>
+            <a href="pritys6.html">
+                <button>Read More</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Bootstrap Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</html><section class="py-5 bg-light">
+    <div class="container text-center">
+      <hr>
+      <h2 class="fw-bold mb-5">Our Projects</h2>
+  
+      <!-- Tabs -->
+      <ul class="nav nav-tabs justify-content-center mb-4" id="projectTabs">
+        <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#all">All</a></li>
+        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#app">App</a></li>
+        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product">Product</a></li>
+        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#branding">Branding</a></li>
+        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#books">Books</a></li>
+      </ul>
+  
+      <!-- Tab Content -->
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="all">
+          <div class="row gy-4">
+            <!-- Row 1 -->
+            <div class="col-md-4 position-relative">
+              <div class="project-box lower">
+                <img src="https://plus.unsplash.com/premium_photo-1663076306950-f6602c629ff4?q=80&w=1557&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="Project 1">
+                <div class="overlay">
+                  <p class="text-white">Project 1 - App</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <div class="project-box higher">
+                <img src="https://images.unsplash.com/photo-1622940000668-6c6bd414ec1c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="Project 2">
+                <div class="overlay">
+                  <p class="text-white">Project 2 - Product</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <div class="project-box lower">
+                <img src="https://images.unsplash.com/photo-1681999735639-da9eafbb385f?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="Project 3">
+                <div class="overlay">
+                  <p class="text-white">Project 3 - Branding</p>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Row 2 -->
+            <div class="col-md-4 position-relative">
+              <div class="project-box higher">
+                <img src="https://plus.unsplash.com/premium_photo-1694475528747-0fa268e4c91f?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="Project 4">
+                <div class="overlay">
+                  <p class="text-white">Project 4 - Books</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <div class="project-box lower">
+                <img src="https://images.unsplash.com/photo-1600261415755-7b80f72f0fdd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="Project 5">
+                <div class="overlay">
+                  <p class="text-white">Project 5 - App</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <div class="project-box higher">
+                <img src="https://images.unsplash.com/photo-1720721846340-c082b6012717?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="Project 6">
+                <div class="overlay">
+                  <p class="text-white">Project 6 - Product</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Additional tabs (app, product, branding, books) can use similar structure if needed -->
+      </div>
+    </div>
+  </section>
+  
+  <!-- Styles for hover effect and layout -->
+  <style>
+  .project-box {
+    position: relative;
+    overflow: hidden;
+  }
+  .project-box img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  .project-box:hover img {
+    transform: scale(1.05);
+  }
+  .project-box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+  .project-box:hover .overlay {
+    opacity: 1;
+  }
+  .lower {
+    margin-top: 30px;
+  }
+  .higher {
+    margin-top: 0;
+  }
+  </style> <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .contact-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+    .contact-card {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    .form-control, .btn {
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<section class="contact-section">
+  <div class="container">
+    <hr>
+    <h2 class="text-center mb-5">Contact Us</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="contact-card p-4 bg-white">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Your Name</label>
+              <input type="text" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="5" placeholder="Type your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="contact-card">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.204393858299!2d144.9578243!3d-37.8172099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5e6cdb1d8b%3A0xd123e0c72e50e2a7!2sRMIT%20University!5e0!3m2!1sen!2sin!4v1681234567890" 
+            width="100%" height="100%" style="border:0; min-height:400px;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html><footer class="bg-dark text-light pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        <!-- Brand -->
+        <div class="col-md-4 mb-4">
+          <h4 class="fw-bold">Krishi Mitra</h4>
+          <p>Empowering farmers with technology, updates, and support across India.</p>
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#hero" class="text-light text-decoration-none">Home</a></li>
+            <li><a href="#about" class="text-light text-decoration-none">About</a></li>
+            <li><a href="#services" class="text-light text-decoration-none">Services</a></li>
+            <li><a href="#projects" class="text-light text-decoration-none">Projects</a></li>
+          </ul>
+        </div>
+  
+        <!-- Contact -->
+        <div class="col-md-4 mb-4">
+          <h5>Contact Us</h5>
+          <p>Email: supportkrishimitra@gmail.com</p>
+          <p>Phone: +91-6667778889</p>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="border-light">
+      <p class="text-center mb-0">&copy; 2025 Krishi Mitra. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- backened -->
+   
+  <!-- <script>
+    fetch('http://localhost:5000/weather')
+      .then(response => response.json())
+      .then(data => {
+        const weatherInfo = `
+          <h2>Weather</h2>
+          <p>Location: ${data.location}</p>
+          <p>Forecast: ${data.forecast}</p>
+          <p>Temperature: ${data.temperature}</p>
+        `;
+        document.body.insertAdjacentHTML('beforeend', weatherInfo);
+      })
+      .catch(error => console.error('Error fetching weather data:', error));
+  </script> -->
+  <!-- <!DOCTYPE html>
+<html>
+    <head>
+      <title>Krishi Mitra</title>
+      <style>
+        #moreContent {
+          display: none;
+          margin-top: 10px;
+        }
+      </style>
+    </head>
+    <body>
+    
+    <h2>Empowering Indian Farmers</h2>
+    <p>
+      Krishi Mitra is dedicated to providing farmers with timely access to vital information, including weather forecasts, crop advisories, and mandi prices.
+    </p>
+    
+    <button onclick="showMore()">Learn More</button>
+    
+    <div id="moreContent">
+      <p>
+        We also connect farmers with government schemes, offer real-time crop monitoring tools, and provide a platform to interact with experts for personalized advice.
+      </p>
+    </div>
+    
+    <script>
+      function showMore() {
+        var content = document.getElementById("moreContent");
+        if (content.style.display === "none") {
+          content.style.display = "block";
+        } else {
+          content.style.display = "none";
+        }
+      }
+    </script>
+    
+    </body>
+    </html>
+   -->
+   <!-- <!DOCTYPE html>
+   <html>
+   <head>
+     <title>Krishi Mitra Services</title>
+     <style>
+       .service {
+         border: 1px solid #ccc;
+         padding: 10px;
+         margin-bottom: 10px;
+         border-radius: 5px;
+       }
+   
+       .more-content {
+         display: none;
+         margin-top: 10px;
+         color: #444;
+       }
+   
+       .read-btn {
+         background-color: #e0f0e0;
+         border: none;
+         padding: 6px 12px;
+         cursor: pointer;
+         border-radius: 5px;
+       }
+     </style>
+   </head>
+   <body>
+   
+   <h3>Our Services</h3>
+   
+   <div class="service">
+     <strong>Service 1</strong>
+     <p>Get real-time weather updates tailored to your farming region and upcoming conditions.</p>
+     <button class="read-btn" onclick="toggleContent('more1')">Read More</button>
+     <div id="more1" class="more-content">
+       <p>This includes 7-day weather forecast, rainfall prediction, and seasonal advisory for better planning.</p>
+     </div>
+   </div>
+   
+   <div class="service">
+     <strong>Service 2</strong>
+     <p>Access live mandi prices to help you sell your crops at the best possible rates.</p>
+     <button class="read-btn" onclick="toggleContent('more2')">Read More</button>
+     <div id="more2" class="more-content">
+       <p>Track daily price updates from nearby mandis with historical price trends for key crops.</p>
+     </div>
+   </div>
+   
+   <div class="service">
+     <strong>Service 3</strong>
+     <p>Get expert crop advisory based on your region, soil, climate, and crop stage to maximize yield.</p>
+     <button class="read-btn" onclick="toggleContent('more3')">Read More</button>
+     <div id="more3" class="more-content">
+       <p>Chat with experts, receive stage-wise guidance, and personalized fertilizer suggestions.</p>
+     </div>
+   </div>
+   
+   <script>
+     function toggleContent(id) {
+       var element = document.getElementById(id);
+       element.style.display = (element.style.display === "none") ? "block" : "none";
+     }
+   </script>
+   
+   </body>
+   </html>   -->
